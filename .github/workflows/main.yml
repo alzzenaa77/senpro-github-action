@@ -36,8 +36,8 @@ jobs:
             host: ${{ secrets.HOST }}
             username: ${{ secrets.USERNAME}}
             password: ${{ secrets.PASSWORD }} 
-               port: ${{ secrets.PORT }}
-               script: |
+            port: ${{ secrets.PORT }}
+            script: |
                   eval "$(ssh-agent -s)"
                   ssh-add ~/.ssh/ssh-praktikan36
                   echo "Cek folder project";
