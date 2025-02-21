@@ -1,3 +1,7 @@
+
+// Raffa Alzena Zhafirah
+//22/505656/TK/55353
+
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
